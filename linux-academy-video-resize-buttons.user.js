@@ -11,7 +11,7 @@
 // @author      Alexandros Gidarakos <algida79@gmail.com>
 // @name        Linux Academy - Video resize buttons
 // @namespace   linuxacademy.com
-// @version     0.2
+// @version     1.0
 // @description Adds video resize buttons on Linux Academy course pages
 // @homepage    https://github.com/AlexGidarakos/MyUserScripts
 // @include     https://linuxacademy.com/cp/courses/lesson/course/*
