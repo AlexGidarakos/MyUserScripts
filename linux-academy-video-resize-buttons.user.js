@@ -25,3 +25,12 @@ target.addClass("col-sm-1");
 target = target.prev();
 target.removeClass("col-sm-10");
 target.addClass("col-sm-9");
+
+// Create a container for the buttons
+var videoResizeButtons = $("<div/>", {
+  "id": "video-resize-buttons",
+  "class": "col-sm-2",
+  "css": {
+    "padding": "18px 0"
+  }
+});
