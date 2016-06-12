@@ -117,4 +117,11 @@ function resizeVideo() {
       $("#btn-video-smaller").removeClass("disabled");
       $("#btn-video-larger").removeClass("disabled");
   }
+
+  // Calculate new class
+  var newClass = "col-md-" + newSize;
+
+  // Resize video
+  target.removeClass(currentClass);
+  target.addClass(newClass);
 }
