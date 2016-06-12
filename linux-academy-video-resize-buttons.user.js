@@ -93,4 +93,17 @@ function resizeVideo() {
   }
 
   var currentSize = currentClass.split("-")[2];
+
+  // Store resize intent as a boolean
+  var enlarge = (this.id === "btn-video-larger")? true : false;
+
+  // Calculate new size
+  var newSize = currentSize;
+
+  if(enlarge) {
+    newSize++;
+  }
+  else {
+    newSize--;
+  }
 }
