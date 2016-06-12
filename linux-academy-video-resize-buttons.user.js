@@ -106,4 +106,15 @@ function resizeVideo() {
   else {
     newSize--;
   }
+
+  // Enable or disable buttons
+  switch(newSize) {
+    case 6:
+    case 12:
+      $(this).addClass("disabled");
+      break;
+    default:
+      $("#btn-video-smaller").removeClass("disabled");
+      $("#btn-video-larger").removeClass("disabled");
+  }
 }
