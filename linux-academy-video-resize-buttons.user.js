@@ -18,3 +18,10 @@
 // @grant       none
 // ==/UserScript==
 
+// Make space for the buttons
+var target = $("#vl-menu-icon");
+target.removeClass("col-sm-2");
+target.addClass("col-sm-1");
+target = target.prev();
+target.removeClass("col-sm-10");
+target.addClass("col-sm-9");
