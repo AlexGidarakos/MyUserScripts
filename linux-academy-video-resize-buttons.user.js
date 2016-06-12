@@ -70,6 +70,10 @@ target.append(btnVideoSmaller, btnVideoLarger);
 // Target the element that should be resized
 target = $(".js-video-column");
 
+// Set video default size to col-md-11
+target.removeClass("col-md-8");
+target.addClass("col-md-11");
+
 // Create the resize function
 function resizeVideo() {
 }
