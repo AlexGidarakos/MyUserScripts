@@ -38,3 +38,30 @@ var videoResizeButtons = $("<div/>", {
 // DOM insertion of the container
 target.after(videoResizeButtons);
 target = target.next();
+
+// Create the buttons, with click event bound to the resize function
+var btnVideoSmaller = $("<button/>", {
+  "id": "btn-video-smaller",
+  "class": "btn btn-la-major",
+  "type": "button",
+  "text": "-",
+  "css": {
+    "width": "36px",
+    "height": "30px",
+    "padding": "4px",
+    "margin-right": "16px"
+  },
+  click: resizeVideo
+});
+var btnVideoLarger = $("<button/>", {
+  "id": "btn-video-larger",
+  "class": "btn btn-la-major",
+  "type": "button",
+  "text": "+",
+  "css": {
+    "width": "36px",
+    "height": "30px",
+    "padding": "4px"
+  },
+  click: resizeVideo
+});
