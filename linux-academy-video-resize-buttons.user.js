@@ -34,3 +34,7 @@ var videoResizeButtons = $("<div/>", {
     "padding": "18px 0"
   }
 });
+
+// DOM insertion of the container
+target.after(videoResizeButtons);
+target = target.next();
