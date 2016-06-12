@@ -68,3 +68,6 @@ var btnVideoLarger = $("<button/>", {
 
 // DOM insertion of the buttons
 target.append(btnVideoSmaller, btnVideoLarger);
+
+// Target the element that should be resized
+target = $(".js-video-column");
