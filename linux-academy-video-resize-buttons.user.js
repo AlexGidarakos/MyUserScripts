@@ -65,3 +65,6 @@ var btnVideoLarger = $("<button/>", {
   },
   click: resizeVideo
 });
+
+// DOM insertion of the buttons
+target.append(btnVideoSmaller, btnVideoLarger);
