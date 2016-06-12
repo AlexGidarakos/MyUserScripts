@@ -71,3 +71,7 @@ target.append(btnVideoSmaller, btnVideoLarger);
 
 // Target the element that should be resized
 target = $(".js-video-column");
+
+// Create the resize function
+function resizeVideo() {
+}
