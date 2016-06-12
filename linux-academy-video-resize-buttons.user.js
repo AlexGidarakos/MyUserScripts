@@ -32,8 +32,7 @@ var videoResizeButtons = $("<div/>", {
 });
 
 // DOM insertion of the container
-target.after(videoResizeButtons);
-target = target.next();
+target.before(videoResizeButtons);
 
 // Create the buttons, with click event bound to the resize function
 var btnVideoSmaller = $("<button/>", {
