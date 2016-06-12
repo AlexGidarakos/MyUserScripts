@@ -76,4 +76,21 @@ target.addClass("col-md-11");
 
 // Create the resize function
 function resizeVideo() {
+  // Get current video size from col-md class
+  var currentClasses = target.attr("class").split(/\s+/);
+  var currentClass = false;
+
+  for(var i = 0; i < currentClasses.length; i++) {
+    if(currentClasses[i].includes("col-md-")) {
+      currentClass = currentClasses[i];
+      break;
+    }
+  }
+
+  // Return in case a col-md class was not found
+  if(!currentClass) {
+    return;
+  }
+
+  var currentSize = currentClass.split("-")[2];
 }
