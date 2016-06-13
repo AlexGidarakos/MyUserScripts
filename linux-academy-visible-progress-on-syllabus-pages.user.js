@@ -1,0 +1,20 @@
+/*
+*  A browser userscript that adds a visible progress percentage on Linux
+*  Academy Syllabus pages
+*
+*  Copyright 2016, Alexandros Gidarakos.
+*    Author: Alexandros Gidarakos <algida79@gmail.com>
+*
+*  SPDX-License-Identifier: GPL-2.0
+*/
+
+// ==UserScript==
+// @author      Alexandros Gidarakos <algida79@gmail.com>
+// @name        Linux Academy - Visible progress on Syllabus pages
+// @namespace   linuxacademy.com
+// @version     0.1
+// @description Add visible progress percentage on Linux Academy Syllabus pages
+// @homepage    https://github.com/AlexGidarakos/MyUserScripts
+// @include     https://linuxacademy.com/cp/modules/view/id/*
+// @grant       none
+// ==/UserScript==
