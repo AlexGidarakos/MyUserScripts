@@ -18,3 +18,7 @@
 // @include     https://linuxacademy.com/cp/modules/view/id/*
 // @grant       none
 // ==/UserScript==
+
+// Make space for the progress box
+var target = $("#course-certificate-icon").prev();
+target.removeClass("col-sm-11").addClass("col-sm-9");
