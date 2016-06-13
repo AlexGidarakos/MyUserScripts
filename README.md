@@ -4,3 +4,6 @@ To install a userscript, make sure you have userscript support in your browser (
 
 * [Linux Academy video resize buttons](https://github.com/AlexGidarakos/MyUserScripts/raw/master/linux-academy-video-resize-buttons.user.js): Adds two buttons for resizing the visible area of video courses on linuxacademy.com
 <br /><br /><img src="https://github.com/AlexGidarakos/MyUserScripts/raw/master/linux-academy-video-resize-buttons-animated.gif" alt="Animated GIF demonstrating the video button functionalty" width="640">
+
+* [Linux Academy visible progress on Syllabus pages](https://github.com/AlexGidarakos/MyUserScripts/raw/master/linux-academy-visible-progress-on-syllabus-pages.user.js): Adds a visible progress percentage on linuxacademy.com Syllabus pages
+<br /><br /><img src="https://github.com/AlexGidarakos/MyUserScripts/raw/master/linux-academy-visible-progress-on-syllabus-pages.png" alt="PNG demonstrating the progress box" width="640">
