@@ -34,3 +34,25 @@ var progressBox = $("<p/>", {
 
 // DOM insertion of the progress box
 target.before(progressBox);
+
+// Progress attribute not immediately available, poll until available
+var progress;
+target = $(".course-completion-percentage-tooltip");
+
+var progressPollInterval = setInterval(function() {
+  progressPoll()
+}, 100);
+
+function progressPoll() {
+  progress = target.attr("data-original-title");
+
+  if(progress === undefined) {
+    return;
+  }
+
+  // Progress is available, cancel polling
+  clearInterval(progressPollInterval);
+
+  // Set progress box text
+  $("#progress-box").text("Progress: " + progress);
+}
