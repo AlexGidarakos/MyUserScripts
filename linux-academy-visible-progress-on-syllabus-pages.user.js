@@ -31,3 +31,6 @@ var progressBox = $("<p/>", {
     "margin": "0"
   }
 });
+
+// DOM insertion of the progress box
+target.before(progressBox);
